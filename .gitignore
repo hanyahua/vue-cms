@@ -1,0 +1,6 @@
+node_modules
+.idea
+.vscode
+.git
+src/lib/mui-master/*
+!src/lib/mui-master/dist

@@ -1,0 +1,28 @@
+{
+  "name": "vue-cms",
+  "version": "1.0.0",
+  "description": "vue第一个学习项目",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base ./dist --hot --host 192.168.0.106"
+  },
+  "author": "han",
+  "license": "ISC",
+  "dependencies": {
+    "mint-ui": "^2.2.13",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.16.5"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "style-loader": "^0.22.1",
+    "url-loader": "^1.1.0",
+    "vue-loader": "^15.3.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}
